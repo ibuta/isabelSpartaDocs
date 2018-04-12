@@ -1,0 +1,51 @@
+<div>Ruby Intro</div>
+<div>Ruby variables</div>
+<div>Ruby control flow</div>
+<div>Ruby Loops</div>
+<div>Ruby Functions</div>
+<div>Ruby Clases and Objects</div>
+<div>Sinatra intro</div>
+<div>REST</div>
+<div>Routes and Controllers</div>
+<div>ERB Templates</div>
+<div>Forms and Method overrides</div>
+<div>Static Asset and styling</div>
+<div>Models</div>
+<div>Databases and SQL</div>
+<div>Sessions and Cookies</div>
+<div><b>lexiepaps</b> 12:42 PM, March 3rd <br></div>
+<div>@channel happy Saturday everyone! If yesterday was your first guest talk please make sure that after a guest talk you do the following three top tips: 1. Connect with the speaker- they are thought leaders and will widen your network to some fantastic people. 2. Post about it on linked in and mention them by name / company. This helps you develop your own unique professional brand. 3. Like and share relevant posts - this is what helps you develop your professional network. If you’re not sure where to start, feel free to share my post on linked in and go from there! #businesstime</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal<br></div>
+<div><br></div>
+<div>https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_ref_js_modal&stacked=h<br></div>
+<div><br></div>
+<div>https://www.w3schools.com/howto/howto_css_modals.asp<br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

@@ -1,0 +1,4 @@
+{"status"=>200, "result"=>{"postcode"=>"B60 1JA", "quality"=>1, "eastings"=>397580, "northings"=>274498, "country"=>"England", "nhs_ha"=>"West Midlands", "longitude"=>-2.0369671551858, "latitude"=>52.3685280996343, "european_electoral_region"=>"West Midlands", "primary_care_trust"=>"Worcestershire", "region"=>"West Midlands", "lsoa"=>"Bromsgrove 008B", "msoa"=>"Bromsgrove 008", "incode"=>"1JA", "outcode"=>"B60", "parliamentary_constituency"=>"Bromsgrove", "admin_district"=>"Bromsgrove", "parish"=>"Catshill and North Marlbrook", "admin_county"=>"Worcestershire", "admin_ward"=>"Marlbrook", "ccg"=>"NHS Redditch and Bromsgrove", "nuts"=>"Worcestershire", "codes"=>{"admin_district"=>"E07000234", "admin_county"=>"E10000034", "admin_ward"=>"E05009841", "parish"=>"E04010279", "parliamentary_constituency"=>"E14000605", "ccg"=>"E38000139", "nuts"=>"UKG12"}}}
+
+
+

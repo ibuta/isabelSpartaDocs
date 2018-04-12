@@ -1,0 +1,24 @@
+<h1>Employee Page</h1>
+
+	<%=form_for(@employee) do |f| %>
+		<p>
+		<%=f. label 'Your name is here'%><br>
+		<%=f. text_field :name%>
+		</p>
+
+		<p>
+		<%=f. label :department%><br>
+		<%=f. text_field :department%>
+		</p>
+
+		<p>
+		<%=f. label :age%><br>
+		<%=f. text_field :age%>
+		</p>
+
+		<p>
+		<%=f. label :email%><br>
+		<%=f. text_field :email%>
+		</p>
+		<%=f. submit %>
+	<%end%>

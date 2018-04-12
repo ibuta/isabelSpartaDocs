@@ -1,0 +1,37 @@
+<div><br></div>
+<div>1. Create a seed file with DROP TABLE statement</div>
+<div>2. On Terminal, do `psql` to go into postgresql</div>
+<div>3. Create the database with `CREATE DATABASE name_of_database;`. Remember to have a semicolon at the end!</div>
+<div>4. Exit postgresql console with `\q`</div>
+<div>5. Seed the database with `psql -d database_name -f seed.sql`</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>If I create a new elegant file, I can create a new file database with other name.</div>
+<div>Sql -d blog -f seed.sql</div>
+<div><br></div>
+<div>_______________</div>
+<div><br></div>
+<div>-Create the file you going to work</div>
+<div>-Install the gems </div>
+<div>-Create a controller fold and file</div>
+<div>-Copy the sql and change the details in config.ru, seed etc to the specific new file</div>
+<div>-Go to controller and write the set of the roots and the root to the folder</div>
+<div>-Create the function for the books</div>
+<div>-Create the views folder </div>
+<div>-Create the models folder</div>
+<div>-Go to config. File and update it</div>
+<div>-Do the other 7steps in the controller file (4get+new, id edit, post and get delete)</div>
+<div>	*don’t forget the that the id can break the code if they are in </div>
+<div>-Fix the view pages </div>
+<div>-Fix the show pages and update the models file</div>
+<div>-</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Prof language“@Book = Book.all => book.all is assigned to @book”</div>

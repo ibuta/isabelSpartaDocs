@@ -1,0 +1,75 @@
+<div>Ruby variables</div>
+<div>Ruby control flow</div>
+<div>Ruby Loops</div>
+<div>Ruby Functions</div>
+<div>Ruby Clases and Objects</div>
+<div>Sinatra intro</div>
+<div>REST</div>
+<div>Routes and Controllers</div>
+<div>ERB Templates</div>
+<div>Forms and Method overrides</div>
+<div><br></div>
+<div>Static Asset and styling</div>
+<div>Models</div>
+<div><br></div>
+<div><br></div>
+<div>Databases and SQL</div>
+<div>Sessions and Cookies</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Sexta homework</div>
+<div>sabado , ruby estudar s‡bado e domingo</div>
+<div>somingo.</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

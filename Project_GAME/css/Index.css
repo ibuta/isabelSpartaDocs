@@ -1,0 +1,374 @@
+body {
+	background-image:url("../images/rest.jpg");
+	}
+
+div#instructionsbox{
+	margin: 0 auto;
+	 		background-color: white;
+	 		border:#999 1px solid;
+	 		width: 430px;
+	 		height: 180px;
+	 		padding: 24px;
+	 		perspective: 500px;
+	 		background-size:cover; 
+}	
+
+p { color: black;
+	text-align: center;
+}
+
+h1 { color: #9932CC;
+	font-size: 36;
+	text-align: center;
+ }
+
+ h2 { color: #9932CC;
+	font-size: 36;
+	text-align: center;
+ }
+
+}
+#myAudio{
+	display: none;
+}
+
+.image{
+	background-image:url("../images/rest.jpg");
+	opacity: 0.5;
+}
+
+div#memory_Board{
+			margin: 0 auto;
+	 		background-color:;		
+	 		width: 540px;
+	 		height: 537px;
+	 		padding: 24px;
+	 		perspective: 500px;
+
+	 		background-size:cover; 
+}
+div#memory_Board > div{
+	background-color: url(tile_bg.jpg) no repeat;
+	border: #000 1px solid;
+	width: 71px;
+	height: 71px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center; 
+	perspective: 500px; /* to apply the turn factor to the items*/
+	background-size:cover; 
+}
+.column {
+	float: left;
+	width: 25%;
+	display: inline-block;
+	background-color: green;
+	width:150px;
+    height:150px;
+    transform: rotateY(0);
+    transform-style: preserve-3d;
+    transition: 400ms; /* how long the transitions take*/ 
+    background-size:cover; 
+}
+
+.column.flip{
+	transformation : rotateY(180deg);
+}
+
+
+.columndois {
+	float: right;
+	width: 25%;
+	display: inline-block;
+	background-color: red;
+	width:150px;
+    height:150px;
+    background-size:cover; 
+}
+
+.columntres {
+	float: right;
+	width: 25%;
+	display: inline-block;
+	background-color: pink;
+	width:150px;
+    height:150px;
+    background-size:cover; 
+}
+
+.columnquatro {
+	float: right;
+	width: 25%;
+	display: inline-block;
+	background-color: yellow;
+	width:150px;
+    height:150px;
+    background-size:cover; 
+}
+
+}
+/*will clear the floats after the colums */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.lemon {
+	background-image: url(../images/card1.png);
+	backface-visibility: hidden;
+	background-image: url(../images/menus.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+
+}
+#card_A{
+	background-image: url(../images/card1.png);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A1{
+	background-image: url(../images/card1.png);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+
+
+
+.sandwich {
+	background-image: url(../images/card2.jpg);
+	backface-visibility: hidden;	
+	background-image: url(../images/menus.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_B{
+	background-image: url(../images/card2.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_B1{
+	background-image: url(../images/card2.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+
+}
+
+
+
+
+.ice_cream {
+	background-image: url(../images/card3.png);
+	backface-visibility: hidden;
+	background-image: url(../images/backcoverpink.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;	
+	background-size:cover; 
+}
+#card_C{
+	background-image: url(../images/card3.png);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_C1{
+	background-image: url(../images/card3.png);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+
+
+
+.soup {
+	background-image: url(../images/card4.jpg);
+	backface-visibility: hidden;
+	background-image: url(../images/backcoverpink.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_D{
+	background-image: url(../images/card4.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_D1{
+	background-image: url(../images/card4.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+
+.pitta {
+	background-image: url(../images/card5.jpg);
+	backface-visibility: hidden;
+	background-image: url(../images/backcoverpink.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A{
+	background-image: url(../images/card5.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A1{
+	background-image: url(../images/card5.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+
+.peach {
+	background-image: url(../images/card6.jpg);
+	backface-visibility: hidden;
+	background-image: url(../images/backcoverpink.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A{
+	background-image: url(../images/card6.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A1{
+	background-image: url(../images/card6.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+
+.coffe {
+	background-image: url(../images/card7.jpg);
+	backface-visibility: hidden;
+	background-image: url(../images/backcoverpink.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A{
+	background-image: url(../images/card7.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A1{
+	background-image: url(../images/card7.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+.juice {
+	background-image: url(../images/card8.jpg);
+	backface-visibility: hidden;
+	background-image: url(../images/backcoverpink.jpg)
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A{
+	background-image: url(../images/card8.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+#card_A1{
+	background-image: url(../images/card8.jpg);
+	backface-visibility: hidden;
+	background-size:cover; 
+}
+
+
+.backcover { 
+	background-image: 
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+	background: url(../images/menus.jpg);
+}
+
+
+.alert{
+	padding: 20 px;
+	background-color: purple;
+	color:white;
+	margin-bottom: 15px;
+
+}
+
+#second{
+	position: relative;
+	margin-left: 400px;
+	width:  300px;
+	height:200px;
+	margin-top: 300px;
+}
+
+#parent{
+	position: absolute;
+	margin-left: 50px;
+	width: 600px;
+	height: 400px;
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

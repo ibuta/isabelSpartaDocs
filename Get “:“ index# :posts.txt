@@ -1,0 +1,70 @@
+<ol>
+<li>Get “/5” show</li>
+<li>Get “/new” new</li>
+<li>Get “/5/edit</li>
+<li>Create</li>
+<li>Put “/id”</li>
+<li>Delete “/id/“</li>
+</ol>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>-Method override "_method"</div>
+<div><br></div>
+<div><br></div>
+<div>   <input type="hidden" name="_method" value="PUT"></div>
+<div><br></div>
+<div>Databases $SQL(a language used to retrieve data)</div>
+<div>Relational database - (in ruby inherintance </div>
+<div><br></div>
+<div><br></div>
+<div>Databases Apps: Oracle, My SQL, Mongo (used for big data- not relational system)</div>
+<div><br></div>
+<div>PostgreSQL</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>SQL- We need a database to avoid the browser to loose the information that its in the array. (e.g the blog posts when you delete if breaks)</div>
+<div><br></div>
+<div><br></div>
+<div>We create a models folder; in which we create a post </div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Rails mvc - you don’t need to create separate folders, it creates all the mvc in the same place. </div>
+<div><br></div>
+<div><br></div>
+<div>Rails server (in console) - rails s</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

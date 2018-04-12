@@ -1,0 +1,24 @@
+<div><br></div>
+<div>ORM/Object Relational Manager</div>
+<div><br></div>
+<div>Is a framework / tool within the database that we can use to type the ruby. </div>
+<div><br></div>
+<div>OOP- ruby </div>
+<div>Postgratesql SQL - serve</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>-Serial-number</div>
+<div>-Description</div>
+<div>-Supplier</div>
+<div>-Status</div>
+<div>-Lender</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>1)rails new Ñhelp</div>
+<div>2)rails new homework -d postgresql</div>

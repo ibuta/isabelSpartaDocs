@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+Web application
+Api
+Rest
+______________________
+rMVC - route model (data) views (what the user views/viewing) controller (glue that put data and viewing together)
+Representational 
+Sinatra (framework) its a ruby gem that after installed helps to creat an rMVC
+ERB
+SQC Active Relord
+
+
+Sinatra creates a gem installed to open 
+
+
+Localhost = individualcomputer adress

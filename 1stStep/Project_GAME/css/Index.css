@@ -1,0 +1,152 @@
+
+div#memory_Board{
+			margin: 0 auto;
+	 		background-color: #ccc;
+	 		boarder:#999 1px solid;
+	 		width: 530px;
+	 		height: 267px;
+	 		padding: 24px;
+}
+div#memory_Board > div{
+	background-color: url(tile_bg.jpg) no repeat;
+	boarder: #000 1px solid;
+	width: 71px;
+	height: 71px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center; 
+}
+.column {
+	float: left;
+	width: 25%;
+	display: inline-block;
+	background-color: green;
+	width:150px;
+    height:150px;
+}
+
+.columndois {
+	float: right;
+	width: 25%;
+	display: inline-block;
+	background-color: red;
+	width:150px;
+    height:150px;
+}
+
+.columntres {
+	float: right;
+	width: 25%;
+	display: inline-block;
+	background-color: pink;
+	width:150px;
+    height:150px;
+}
+
+.columnquatro {
+	float: right;
+	width: 25%;
+	display: inline-block;
+	background-color: yellow;
+	width:150px;
+    height:150px;
+}
+
+}
+/*will clear the floats after the colums */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.lemon {
+	background-image: url(../images/card1.png);
+}
+
+#card_A{
+	background-image: url(../images/card1.png);
+}
+#card_A1{
+	background-image: url(../images/card1.png);
+}
+
+
+
+
+.sandwich {
+	background-image: url(../images/card2.jpg);
+}
+
+#card_B{
+	background-image: url(../images/card2.jpg);
+}
+#card_B1{
+	background-image: url(../images/card2.jpg);
+}
+
+
+
+.ice_cream {
+	background-image: url(../images/card3.png);
+}
+
+#card_C{
+	background-image: url(../images/card3.png);
+}
+#card_C1{
+	background-image: url(../images/card3.png);
+}
+
+
+
+.soup {
+	background-image: url(../images/card4.jpg);
+}
+
+#card_D{
+	background-image: url(../images/card4.jpg);
+}
+#card_D1{
+	background-image: url(../images/card4.jpg);
+}
+
+
+
+
+
+
+
+
+/* add the flipp 
+find the cover card
+step one: add the css details
+step two: create and event in js 
+step three
+     <div class="column lemon" food="lemon"></div>
+     <div class="column lemon" food="lemon"></div>
+     <div class="column sandwich" food="sandwich1"></div>
+     <div class="column sandwich" food="sandwich2"></div>
+     <div class="column ice_cream" food="ice_cream1"></div>
+     <div class="column ice_cream" food="ice_cream2"></div>
+     <div class="column soup" food="soup1"></div>
+     <div class="column soup" food="soup2"></div>
+     
+  </div>
+
+  <div class="flipper"></div>*/
+
+
+
+
+
+
+
+/*body, hhtml{margin:0;
+	 		font: Arial, Helvetic, sans-serif;
+	 		background: #333; overflow: hidden; 
+	 		color:#fff;
+}*/

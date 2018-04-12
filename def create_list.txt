@@ -1,0 +1,106 @@
+<div>  print "What is the list name? "</div>
+<div>  name = gets.chomp</div>
+<div><br></div>
+<div>  hash = { "name" => name, "items" => Array.new }</div>
+<div>  return hash</div>
+<div>end</div>
+<div><br></div>
+<div>def add_list_item</div>
+<div>  print "What is the item called?"</div>
+<div>  item_name = gets.chomp</div>
+<div><br></div>
+<div>  hash = { "name" => name }</div>
+<div>  return hash</div>
+<div>end</div>
+<div><br></div>
+<div>list = create_list()</div>
+<div>puts list.inspect</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>ÑÑÑ</div>
+<div><br></div>
+<div>def create_list</div>
+<div>  print "What is the list name? "</div>
+<div>  name = gets.chomp</div>
+<div><br></div>
+<div>  hash = { "name" => name, "items" => Array.new }</div>
+<div>  return hash</div>
+<div>end</div>
+<div><br></div>
+<div>def add_list_item</div>
+<div>  print "What is the item called? "</div>
+<div>  item_name = gets.chomp</div>
+<div><br></div>
+<div>  print "How much? "</div>
+<div>  quantity = gets.chomp.to_i</div>
+<div><br></div>
+<div>  hash = { "name" => item_name, "quantity" => quantity }</div>
+<div>  return hash</div>
+<div>end</div>
+<div><br></div>
+<div>list = create_list()</div>
+<div>puts list.inspect</div>
+<div>list['items'].push(add_list_item())</div>
+<div><br></div>
+<div>puts list.inspect</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>ÑÑÑ</div>
+<div><br></div>
+<div>def create_list</div>
+<div>  print "What is the list name? "</div>
+<div>  name = gets.chomp</div>
+<div><br></div>
+<div>  hash = { "name" => name, "items" => Array.new }</div>
+<div>  return hash</div>
+<div>end</div>
+<div><br></div>
+<div>def add_list_item</div>
+<div>  print "What is the item called? "</div>
+<div>  item_name = gets.chomp</div>
+<div><br></div>
+<div>  print "How much? "</div>
+<div>  quantity = gets.chomp.to_i</div>
+<div><br></div>
+<div>  hash = { "name" => item_name, "quantity" => quantity }</div>
+<div>  return hash</div>
+<div>end</div>
+<div><br></div>
+<div>def print_list(list)</div>
+<div>  puts "List: #{list['name']}"</div>
+<div>  puts "----"</div>
+<div><br></div>
+<div>  list["items"].each do |item|</div>
+<div>    puts "Item: " + item['name']</div>
+<div>    puts "Quantity: " + item['quantity'].to_s</div>
+<div>    puts "---"</div>
+<div>  end</div>
+<div>end</div>
+<div><br></div>
+<div>list = create_list()</div>
+<div>puts list.inspect</div>
+<div>list['items'].push(add_list_item())</div>
+<div><br></div>
+<div>puts list.inspect</div>
+<div><br></div>
+<div>print_list(list)</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

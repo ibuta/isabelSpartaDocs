@@ -1,0 +1,229 @@
+<div><br></div>
+<div><br></div>
+<div><span style="font-size: 13px">Puts”AA”.lenght (a dot operator fallowing an object it means we calling a method on it)</span></div>
+<div><span style="font-size: 13px">Puts string.lenght</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Number = 4</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Puts “AAAAAAA”.lenght</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Puts “AA”.lenght</span></div>
+<div><span style="font-size: 13px">String = “AA”</span></div>
+<div><span style="font-size: 13px">Puts string.lenght</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Puts “AAAAAAA”.lenght</span></div>
+<div><span style="font-size: 13px">Number = 4</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">puts 3.odd? (Its going to return true)</span></div>
+<div><span style="font-size: 13px">puts 3.odd? (Its going to return false)</span></div>
+<div><span style="font-size: 13px">puts 3.even? (Its going to return false)</span></div>
+<div><span style="font-size: 13px">puts 3.even? (Its going to return true)</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">? And ! Are valid characters at the end of the question method name</span></div>
+<div><span style="font-size: 13px">Question mark a methods going to return true or false.</span></div>
+<div><span style="font-size: 13px">Exclamation mart </span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Puts “AA”.lenght</span></div>
+<div><span style="font-size: 13px">String = “AA”</span></div>
+<div><span style="font-size: 13px">Puts string.lenght</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Puts “AAAAAAA”.lenght</span></div>
+<div><span style="font-size: 13px">Number = 4.even?</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Terminal prints: </span></div>
+<div><span style="font-size: 13px">2</span></div>
+<div><span style="font-size: 13px">True</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">String = “AA”</span></div>
+<div><span style="font-size: 13px">Lenght = string.lenght</span></div>
+<div><span style="font-size: 13px">Puts lenght.even?</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Terminal prints: </span></div>
+<div><span style="font-size: 13px">True</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Or same operation but shorter</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Strings = “AA”</span></div>
+<div><span style="font-size: 13px">Puts string.lenght.even?</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Terminal prints: </span></div>
+<div><span style="font-size: 13px">True</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<ul>
+<li>Can get a list of the methods available on an object with the methods method: p 2.methods.sort, p "AA".methods.sort</li>
+</ul>
+<div><span style="font-size: 13px"><br></span></div>
+<div>2.methods.sort</div>
+<div>"AA".methods.sort</div>
+<div><br></div>
+<ul>
+<li>The object's class decides which methods are available on it.</li>
+<li>You can call the class method on any object to find out what its class is.</li>
+</ul>
+<div><br></div>
+<div> 2.class</div>
+<div>"AA".class</div>
+<div><br></div>
+<div><span style="font-size: 13px">Terminal prints: </span></div>
+<div>Fixnum</div>
+<div>String</div>
+<div><br></div>
+<div>You already know how to create objects from the String and Fixnum classes.</div>
+<ul>
+<li>Just include text between quotation marks in your code, and you'll have a String</li>
+<li>Likewise, just include a whole number in your code, and you'll have a Fixnum</li>
+</ul>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div>For other classes, you usually have to call a method on the class to get an instance of it. For example, earlier we briefly showed how to get an instance of the Time class, which represents the current time, by calling the Time.now method.</div>
+<div><br></div>
+<div>time = Time.now</div>
+<div> time.class<span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div>Here are links to documentation on some Ruby classes and their methods:</div>
+<ul>
+<li>String class<br></li>
+<li>Fixnum class<br></li>
+<li>reverse method for String objects<br></li>
+<li>length method for String objects<br></li>
+<li>chomp method for String objects<br></li>
+</ul>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Puts “hello”.reverse</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div>Terminal prints</div>
+<div>olleh<span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Google integer</span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div>One thing we can't do is call the length method on an integer.<span style="font-size: 13px"><br></span></div>
+<div>We also can't call the even method on a string.</div>
+<ul>
+<li>		Not only did those operations not make sense,</li>
+<li>		0:38the methods don't exist on those objects.</li>
+</ul>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<ul>
+<li>		A string has a length method but not an even method and</li>
+<li>		0:44an integer has an even method but not a length method.</li>
+<li><br></li>
+<li><br></li>
+<li><br></li>
+<li><br></li>
+<li>		So what decides which methods are available on an object?</li>
+<li>		1:37It's the object's class.</li>
+<li>		1:39You can call the class method on any object to find out what it's class is.</li>
+<li>		1:43So let's try printing AA.class and let's try printing 2.class.</li>
+<li>		1:53And if we run that, we see that we get String for the string and</li>
+<li>		1:57a class called Fixnum for the integer.</li>
+<li>		2:00You can think of a class as a blueprint.</li>
+<li><br></li>
+<li><br></li>
+<li><br></li>
+<li><br></li>
+<li><br></li>
+<li>		You can think of a class as a blueprint.</li>
+<li>		2:02It's like a set of plans for building say, a car or a radio, or a house.</li>
+<li>		2:07Objects are constructed using the blueprint.</li>
+<li>		2:10The blueprint says how the objects should be structured and</li>
+<li>		2:14what they should be able to do.</li>
+<li>		2:15But the blueprint doesn't get into specific details about an individual car,</li>
+<li>		2:19radio or house, like their color.</li>
+<li>		2:22Likewise, a Ruby class specifies a new type of data.</li>
+<li>		2:26Objects are then constructed using that class, we call these instances of a class.</li>
+<li>		2:32The class specifies how the data should be stored and</li>
+<li>		2:35the things you should be able to do using that data.</li>
+<li>		2:37A class doesn't specify anything about its individual instances though,</li>
+<li>		2:41like the data they hold, that's left up to the objects themselves.</li>
+<li>		2:46You already know how to create objects from the string and fixed num classes.</li>
+<li>		2:50Just include text between quotation marks in your code and you'll have a string.</li>
+<li>		2:55Likewise, just include a whole number in your code and you'll have a fixed num.</li>
+<li>		2:59For other classes,</li>
+<li>		3:00you usually have to call a method on the class to get an instance of it.</li>
+<li>		3:03For example, earlier we briefly showed how to get an instance of the time class which</li>
+<li>		3:08represents the current time by calling the Time.now method.</li>
+<li>		3:13We can assign that new time object to a variable by saying time equals Time.now,</li>
+<li>		3:18we can name the variable whatever we want, of course.</li>
+<li>		3:21And if we print out its class by calling the class method on it.</li>
+<li>		3:29Let's try running that, we'll see that the result is an instance of the Time class.</li>
+<li>		3:36Now as I mentioned, you can get a list of the names of methods on</li>
+<li>		3:39an object by calling its methods, method.</li>
+<li>		3:43So if we create a string and call methods on it and then print the result out.</li>
+<li>		3:52We'll see a big list of methods available on it but that doesn't tell you what</li>
+<li>		3:56the methods do, what arguments they take, what their return values are, or anything.</li>
+<li>		4:00To learn all that, you'll need to look at the classes documentation.</li>
+<li>		4:04There's lots of great Ruby documentation sites out on the web.</li>
+<li>		4:07We just need to look them up.</li>
+<li>		4:09First, we need to be sure what class we're looking for documentation for.</li>
+<li>		4:13You can confirm that by calling the class method</li>
+<li>		4:16on the object that you want to look at.</li>
+<li>		4:18So, of course, this is a string.</li>
+<li>		4:20The class method returns string for this object.</li>
+<li>		4:23So, I know I need documentation for the string class.</li>
+<li>		4:26The next step is to look for that class in a web search engine.</li>
+<li>		4:31But I can't just type string into the search engine,</li>
+<li>		4:33that'll bring up a lot of results for similar classes in other languages.</li>
+<li>		4:38Instead I need to type ruby string.</li>
+<li>		4:43That will limit the results to pages that also contain the word ruby.</li>
+<li>		4:48The top result is for Class String.</li>
+<li>		4:50That looks promising, so I'll click on it.</li>
+<li>		4:53The methods available on a string object are listed down the side of the page.</li>
+<li>		4:57Each is a link to documentation for that method within the page.</li>
+</ul>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px">Exclamation Is a valid character at the end of a </span></div>

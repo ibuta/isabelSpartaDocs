@@ -1,0 +1,166 @@
+<div><br></div>
+<div>-Bundle init (you don’t have to do it because)</div>
+<div>-Bundle (is just to make sure the rails is installed) </div>
+<div>-Rails new on the terminal, you just do it once for each product</div>
+<div><br></div>
+<div>-The database server must run automatically once it is installed </div>
+<div><br></div>
+<div>-When I want to run a project I need to go out of the folder and actually in the outside (I will find gem and the folder -I want to work) file install rails</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>-Rails has generator- rails creates all they initial folders for me  (using generate or staff)</div>
+<div><br></div>
+<div>-Ric is bundle installed in rails - update versions you can use rails automatically</div>
+<div><br></div>
+<div>-Rais generate scaffold / rails g scaffold book title:string author:string description:string</div>
+<div> (You need to think iwhat properties you will need, cause here you install all the folders and matrix that I need e.g. properties for books, id is already geentared - automatically)</div>
+<div><br></div>
+<div>-create_books.rb = seeds.sql</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<ul>
+<li>You can use rails db:rollback -</li>
+<li>Rails generate migration add_serial_number_to_</li>
+</ul>
+<div>__________</div>
+<div>1-Create route - r</div>
+<div>2-Crete the controller - c</div>
+<div>3- Create the view - v</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>DAY3</div>
+<div><br></div>
+<div>Rails models</div>
+<div>Relationships</div>
+<div>Rails console</div>
+<div>Active record</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Rails - </div>
+<div><br></div>
+<div>ciclolight is an embedded database of a small scale(it can be used for mobile and games) - its cash memory</div>
+<div> </div>
+<div><br></div>
+<div>Rails g controller employees</div>
+<div><br></div>
+<div>Employee</div>
+<div>Name</div>
+<div>De</div>
+<div>Adress</div>
+<div>email</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Get/employee INDEX (its the only one which doesn’t have )</div>
+<div>Get/employee1/id SHOW</div>
+<div>Get/employee/new NEW(form)</div>
+<div>Get/employees/id/:id/edit EDIT()</div>
+<div>Post/employees/id CREATE</div>
+<div>Put/employees/:id  UPDATE</div>
+<div>Delete/ employees/:id DELETE</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Def drops</div>
+<div>End</div>
+<div><br></div>
+<div>Theres a rails command to drop the initial tables I have I n seed document</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>link_to is the same as href / you use to evaluate and print</div>
+<div><br></div>
+<div>If you don’t want it to print you use it =</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>new.html ——</div>
+<div><br></div>
+<div>Ruby way of doing it: </div>
+<div><br></div>
+<div>	<%=form_for(@employee) do |f| %></div>
+<div>		<p></div>
+<div>		<%=f. label :name%><br></div>
+<div>		<%=f. text_field :name%></div>
+<div>		</p></div>
+<div><br></div>
+<div>	<label>Name</label></div>
+<div>		<input type="text" name="name" value=""></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>rails g controller Users     - to create a controller in the terminal</div>
+<div>rails g controller Users name age sex email - to create a model in the terminal</div>
+<div><br></div>
+<div>————</div>
+<div>	def create</div>
+<div>		@employee = Employee.new(employee_params) //params[:age]</div>
+<div>	end</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Because in Sinatra we created everything from zero , we had initialise and etc…here rails doesn’t know</div>
+<div>Where to fin the info, so we need rot write it dow.</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>'Edit', edit_employee_path -> go to the ed</div>
+<div><br></div>
+<div>Rails doesn’t use ‘url’</div>
+<div><br></div>
+<div><br></div>
+<div>Research scaffold:</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Homework:</div>
+<div>3  different relationships</div>
+<div>With stylesheetcss</div>
+<div>And a picture </div>
+<div><br></div>
+<div>GitHub</div>
+<div><br></div>
+<div>2h treehouse -5am/7am</div>
+<div><br></div>
+<div>7am/7.30am get read and leave</div>
+<div><br></div>
+<div>8.45am office</div>
+<div>Stylesheet + photo + edit and delete button</div>
+<div><br></div>
+<div>9am GitHub</div>
+<div><br></div>
+<div><br></div>
+<div> </div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

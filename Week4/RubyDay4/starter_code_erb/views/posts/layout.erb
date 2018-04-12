@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= @title%></title>
+</head>
+<body>
+	  <h1><%=@update%></h1>
+
+	  <%= erb(:'partials/navigation', :layout => false) %>
+
+	  <%=yield %>
+
+</body>
+</html>

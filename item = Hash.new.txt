@@ -1,0 +1,76 @@
+<div>Hashes can also be created by using curly braces:</div>
+<div>{}</div>
+<div>When creating a hash using curly braces, keys and values can also be specified:</div>
+<div>item = { "item" => "Bread", "quantity" => 1 }</div>
+<div>Hash keys can be almost any Ruby type. Here's an example of using symbols as hash keys:</div>
+<div>item = { :item => "Bread", :quantity => 1 }</div>
+<div>Hash keys can also be numbers. If we set the following hash key and value:</div>
+<div>item[1] = "Grocery Store"</div>
+<div>Our hash would look like this:</div>
+<div>{ :item => "Bread", :quantity => 1, 1 => "Grocery Store" }</div>
+<div>Once a hash has been instantiated, it is possible to add new hash keys and values by using the name of the hash, brackets containing the new key, an equals sign, and the new value for said key:</div>
+<div>item["brand"] = "Treehouse Bread Company"</div>
+<div>If you're using symbols as keys, there's a shorthand notation you can use. So if you're defining a hash like this...</div>
+<div>item = { :item => "Bread", :quantity => 1 }</div>
+<div>...you can move the colons <i>after</i> the symbols, and omit the arrows. This hash will be identical to the one above:</div>
+<div>item = { item: "Bread", quantity: 1 }</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>hash = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }</div>
+<div>Keys</div>
+<div>To find out all of the different keys inside of the hash, we can use the keys method:</div>
+<div>hash.keys</div>
+<div>This would return an array of the keys in the hash:</div>
+<div>["item", "quantity", "brand"]</div>
+<div>To check whether or not a hash contains a key, we can use the has_key? method, which returns true or false. It is aliased as member? and key?:</div>
+<div>hash.has_key?("brand")      # => true</div>
+<div>hash.member?("quantity")    # => true</div>
+<div>hash.key?("item")           # => true</div>
+<div>The store method will add a key and value pair to a hash:</div>
+<div>hash.store("calories", 100)</div>
+<div>The hash would then contain the following:</div>
+<div>{ "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company", "calories" => 100 }</div>
+<div>Equality</div>
+<div>Two hashes are considered equal when they have the same keys and values:</div>
+<div>milk = { "item" => "Milk", "quantity" => 1, "brand" => "Treehouse Dairy" }</div>
+<div><br></div>
+<div>puts milk == hash     # => true</div>
+<div><br></div>
+<div>bread = { "item" => "Bread", "quantity" => 1, "brand" => "Treehouse Bread Company" }</div>
+<div><br></div>
+<div>puts hash == bread     # => false</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>https://www.google.co.uk/search?q=modules&oq=modules&aqs=chrome..69i57j0l5.2281j0j7&sourceid=chrome&ie=UTF-8<br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

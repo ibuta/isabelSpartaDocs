@@ -1,0 +1,22 @@
+<h1>Employee Page</h1>
+<table>	
+	<thead>
+		<tr>Name</tr>
+		<tr>Department</tr>
+		<tr>Age</tr>
+		<tr>Email</tr>
+	</thead>
+<body>
+	<% @employee.each do |employee| %>
+	<tr>
+		<td><%=employee.name%></td>
+		<td><%=employee.department%></td>
+		<td><%=employee.age%></td>
+		<td><%=employee.email%></td>
+		<td><%=link_to 'Show', employee%></td>
+		<td><%=link_to 'Edit', edit_employee_path(employee)%></td>
+		<td><%=link_to 'Destroy', employee, method: :delete, data: {confirm: 'Are yousure?'} %></td>
+	</tr>
+	<% end%>
+</body>
+</table>

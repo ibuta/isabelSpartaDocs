@@ -1,0 +1,44 @@
+<div>We write the following code in this video. A line by line explanation follows:</div>
+<div>def add_contact</div>
+<div>  contact = {"name" => "", "phone_numbers" => []}</div>
+<div>  contact["name"] = ask("What is the person's name?")</div>
+<div>  answer = ""</div>
+<div>  while answer != "n"</div>
+<div>    answer = ask("Do you want to add a phone number? (y/n)")</div>
+<div>    if answer == "y"</div>
+<div>      phone = ask("Enter a phone number:")</div>
+<div>      contact["phone_numbers"].push(phone)</div>
+<div>    end</div>
+<div>  end</div>
+<div>end</div>
+<div><br></div>
+<div>answer = ""</div>
+<div>while answer != "n"</div>
+<div>  contact_list.push(add_contact())</div>
+<div>end</div>
+<div><br></div>
+<div>Code Explanation</div>
+<div>First, we create our add_contact method:</div>
+<div>def add_contact</div>
+<div>We then set up a default contact hash which the method will return. The hash has two keys -- name which is a string and phone_numbers which is an array:</div>
+<div>  contact = {"name" => "", "phone_numbers" => []}</div>
+<div><br></div>
+<div>We then add the name by calling the ask method. The ask method returns a string, which is immediately assigned to the name attribute:</div>
+<div>  contact["name"] = ask("What is the person's name?")</div>
+<div>Next, we set up our answer and loop until the user doesn't want to enter any more phone numbers:</div>
+<div>  answer = ""</div>
+<div>  while answer != "n"</div>
+<div>    answer = ask("Do you want to add a phone number? (y/n)")</div>
+<div>If the user answers "y" we ask for a phone number using the ask method. The result is assigned to the phonevariable which with then append to the contact["phone_numbers"] array:</div>
+<div>    if answer == "y"</div>
+<div>      phone = ask("Enter a phone number:")</div>
+<div>      contact["phone_numbers"].push(phone)</div>
+<div>    end</div>
+<div>The next lines close the conditional and loop indentation:</div>
+<div>  end</div>
+<div>end</div>
+<div>Finally, we set up the answer variable and loop adding contacts until the user is done:</div>
+<div>answer = ""</div>
+<div>while answer != "n"</div>
+<div>  contact_list.push(add_contact())</div>
+<div>end</div>

@@ -1,0 +1,4 @@
+Sass (a better way to do css with less code)
+Puppet (can set up entire operating systems using directions in a simple text file)
+Chef (can set up entire operating systems using directions in a simple text file)
+Rails/ ruby on rails (the worlds most powerful frameworks)

@@ -1,0 +1,33 @@
+<div><br></div>
+<div>But if you want server site to take the data, will put it inside of the database language(ruby).</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>You put ruby in a file that will call </div>
+<div><br></div>
+<div>Interactive ruby - equivalent to console in the browser</div>
+<div>You can type stuff inside of the interactivity, anything you want to find thats used for prototype. </div>
+<div><br></div>
+<div><br></div>
+<div>.rb - extension for ruby</div>
+<div><br></div>
+<div>Ruby have a lot of libraries - called Ruby gems</div>
+<div><br></div>
+<div>Bondler - it helps you pack everything together (e.g. 50 gems) - its a package manager</div>
+<div><br></div>
+<div>Gem you use it to instal individual package</div>
+<div>Bundler init </div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>1st step: Bundler init</div>
+<div>2nd step: Get the name of gem (don’t put the version, the name in quote)</div>
+<div><br></div>
+<div>3rd step: Get the bundler installed in the gem file (pulled from the website to my pc)</div>
+<div>DONT EVER TOUCH THE LOCK FILE IN BUNDLER- the project will be done</div>
+<div>4th step: put the require</div>
+<div><br></div>
+<div><br></div>
+<div>Snake case - if theres one more word you have to use it “_” to create a variable in ruby</div>
+<div>everywhere the start of a variable should have first letter minimal, as opposite a Constant  should have a Capital letter. </div>

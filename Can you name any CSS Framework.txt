@@ -1,0 +1,40 @@
+<div><br></div>
+<div>	bootstrap -This framework is one of the GitHub stars and is considered the best responsive CSS framework. Designed for front-end development specifically, it helps to build web design concepts, mobile first projects, grid systems, typography, buttons and so on.</div>
+<div><b>Bootstrap</b> doesn’t have any extras but there are third-party plugins available and in addition to regular HTML elements Bootstrap also has other common UI elements. Its core principles are RWD and mobile first.</div>
+<div>Bootstrap 3 version supports a variety of browsers (their latest versions) and since Bootstrap 2 the framework supports responsive web design. Bootstrap 4 version is currently in development.</div>
+<div><br></div>
+<div> Others: foundation, bulma, ulkit </div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Can you name any Javascript Frameworks?</div>
+<div><b>Angular.js</b> is often referred to as an MVW (Model-View-Whatever) framework and among the top benefits, for startups and mid-sized companies, people name: quick code production, easy testing of any app part and two-way data binding (changes in the backend are immediately reflected on the UI). Since release its ecosystem has gone beyond imagination. As for now, it is reasonably called the most used JS framework for SPAs (Single-Page Applications) development and it boasts the largest community of developers.</div>
+<div><br></div>
+<div>Others: vue, reactjs, meteor, ember</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Why is it bad practice to use inline CSS?</div>
+<div><b>Inline styles don't separate content from design.</b></div>
+<div><b>Inline styles cause maintenance headaches.</b><br></div>
+<div><b>Inline styles are not as accessible. Inline styles make your pages bigger.</b></div>
+<div><br></div>
+<div><br></div>
+<div>What’s the benefit of using a library like jQuery? </div>
+<div><br></div>
+<div><br></div>
+<div>What frameworks do you know in Ruby?</div>
+<div><br></div>
+<div>Rails </div>
+<div><br></div>
+<div><br></div>
+<div>What is the benefit of using a framework?</div>
+<div><br></div>
+<div><br></div>
+<div>When would you Sinatra as opposed to Rails (evaluate answers)?</div>
+<div><br></div>
+<div><br></div>
+<div>How would you test a mug? </div>

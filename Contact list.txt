@@ -1,0 +1,163 @@
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>require "./contact"</div>
+<div><br></div>
+<div>class AddressBook</div>
+<div>  attr_reader :contacts</div>
+<div><br></div>
+<div>  def initialize</div>
+<div>    @contacts = []</div>
+<div>  end</div>
+<div><br></div>
+<div>  def print_contact_list</div>
+<div>    puts "Contact List"</div>
+<div>    contacts.each do |contact|</div>
+<div>      puts contact.to_s('last_first')</div>
+<div>    end</div>
+<div>  end</div>
+<div>end</div>
+<div><br></div>
+<div>address_book = AddressBook.new</div>
+<div><br></div>
+<div>jason = Contact.new</div>
+<div>jason.first_name = "Jason"</div>
+<div>jason.last_name = "Seifer"</div>
+<div>jason.add_phone_number("Home", "123-456-7890")</div>
+<div>jason.add_phone_number("Work", "456-789-0123")</div>
+<div>jason.add_address("Home", "123 Main St.", "", "Portland", "OR", "12345")</div>
+<div><br></div>
+<div>nick = Contact.new</div>
+<div>nick.first_name = "Nick"</div>
+<div>nick.last_name = "Pettit"</div>
+<div>nick.add_phone_number("Home", "222-222-2222")</div>
+<div>nick.add_address("Home", "222 Two Lane", "", "Portland", "OR", "12345")</div>
+<div><br></div>
+<div>address_book.contacts.push(jason)</div>
+<div>address_book.contacts.push(nick)</div>
+<div><br></div>
+<div>address_book.print_contact_list</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Searching by name </div>
+<div><br></div>
+<div>def find_by_name(name)</div>
+<div>  results = []</div>
+<div>  search = name.downcase</div>
+<div>  contacts.each do |contact|</div>
+<div>    if contact.full_name.downcase.include?(search)</div>
+<div>      results.push(contact)</div>
+<div>    end</div>
+<div>  end</div>
+<div>  puts "Name search results (#{search})"</div>
+<div>  results.each do |contact|</div>
+<div>    puts contact.to_s('full_name')</div>
+<div>    contact.print_phone_numbers</div>
+<div>    contact.print_addresses</div>
+<div>    puts "\n"</div>
+<div>  end</div>
+<div>end </div>
+<div>Which we can call as follows:</div>
+<div>address_book.find_by_name("e")</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>=ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ</div>
+<div>def find_by_address(query)</div>
+<div>  results = []</div>
+<div>  search = query.downcase</div>
+<div>  contacts.each do |contact|</div>
+<div>    contact.addresses.each do |address|</div>
+<div>      if address.to_s('long').downcase.include?(search)</div>
+<div>        results.push(contact) unless results.include?(contact)</div>
+<div>      end</div>
+<div>    end</div>
+<div>  end</div>
+<div>  print_results("Address search results (#{search})", results)</div>
+<div>end</div>
+<div><br></div>
+<div><br></div>
+<div>_______</div>
+<div><br></div>
+<div><br></div>
+<div>_______</div>
+<div><br></div>
+<div><br></div>
+<div>def add_contact</div>
+<div>  contact = Contact.new</div>
+<div>  print "First name: "</div>
+<div>  contact.first_name = gets.chomp</div>
+<div>  print "Middle name: "</div>
+<div>  contact.middle_name = gets.chomp</div>
+<div>  print "Last name: "</div>
+<div>  contact.last_name = gets.chomp</div>
+<div><br></div>
+<div>  loop do</div>
+<div>    puts "Add phone number or address? "</div>
+<div>    puts "p: Add phone number"</div>
+<div>    puts "a: Add address"</div>
+<div>    puts "(Any other key to go back)"</div>
+<div>    response = gets.chomp.downcase</div>
+<div>    case response</div>
+<div>    when 'p'</div>
+<div>      phone = PhoneNumber.new</div>
+<div>      print "Phone number kind (Home, Work, etc): "</div>
+<div>      phone.kind = gets.chomp</div>
+<div>      print "Number: "</div>
+<div>      phone.number = gets.chomp</div>
+<div>      contact.phone_numbers.push(phone)</div>
+<div>    when 'a'</div>
+<div>      address = Address.new</div>
+<div>      print "Address Kind (Home, Work, etc): "</div>
+<div>      address.kind = gets.chomp</div>
+<div>      print "Address line 1: "</div>
+<div>      address.street_1 = gets.chomp</div>
+<div>      print "Address line 2: "</div>
+<div>      address.street_2 = gets.chomp</div>
+<div>      print "City: "</div>
+<div>      address.city = gets.chomp</div>
+<div>      print "State: "</div>
+<div>      address.state = gets.chomp</div>
+<div>      print "Postal Code: "</div>
+<div>      address.postal_code = gets.chomp</div>
+<div>      contact.addresses.push(address)</div>
+<div>    else</div>
+<div>      print "\n"</div>
+<div>      break</div>
+<div>    end</div>
+<div>  end</div>
+<div><br></div>
+<div>  contacts.push(contact)</div>
+<div>end</div>
+<div><br></div>
+<div><br></div>
+<div>__</div>
+<div><br></div>
+<div> when 's'</div>
+<div>    print "Search term: "</div>
+<div>    search = gets.chomp</div>
+<div>    find_by_name(search)</div>
+<div>    find_by_phone_number(search)</div>
+<div>    find_by_address(search)</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

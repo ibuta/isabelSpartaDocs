@@ -1,0 +1,20 @@
+<div>Strings </div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Def  hi</div>
+<div> 	5</div>
+<div>End</div>
+<div><br></div>
+<div>Puts 5</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>To return a single number I donÕt need an argument cause its just that one action. </div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>Def add(number 1, number2)</div>
+<div>	number 1 + number2	</div>
+<div>end</div>

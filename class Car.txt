@@ -1,0 +1,32 @@
+def initialize
+puts "A brand new carrrr!!!!!!"
+end
+
+def color=(color) # setter
+@color = color
+end
+
+def color # getter
+@color
+end
+end
+
+bmw = Car.new
+audi = Car.new
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End

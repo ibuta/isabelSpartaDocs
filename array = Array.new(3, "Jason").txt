@@ -1,0 +1,83 @@
+<div>Create an empty array with bracket notation:</div>
+<div>array = []</div>
+<div>Create an array using brackets with three items:</div>
+<div>array = ["milk", "eggs", "bread"]</div>
+<div>Create an array using the %w notation which contains three strings:</div>
+<div>array = %w(milk eggs bread)</div>
+<div>Create an array using the %W notation which contains three strings and one is interpolated:</div>
+<div>item = “milk”</div>
+<div>array = %W(#{item} eggs bread)</div>
+<div><br></div>
+<div><br></div>
+<div>array = ["milk", "eggs", "bread"]</div>
+<div>Add the string "carrots" to the end of the array:</div>
+<div>array << "carrots"</div>
+<div>Add the string "potatoes" to the end of the array:</div>
+<div>array.push("potatoes")</div>
+<div>Add the string "celery" to the beginning of the array:</div>
+<div>array.unshift("celery") # add to beginning</div>
+<div>Add the strings "ice cream" and "pie" to the end of the array:</div>
+<div>array += ["ice cream", "pie"]</div>
+<div>Add the number 1 to the end of the array:</div>
+<div>array << 1</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>array = ["milk", "eggs", "bread", "ice cream", "pie", "potatoes"]</div>
+<div>Access "milk", which is at the first position in the array (index 0), and assign it to a variable named "item":</div>
+<div>item = array[0]</div>
+<div>Access the second item in the array (index 1):</div>
+<div>array[1]</div>
+<div>Print out the first item in the array using the first method:</div>
+<div>puts array.first</div>
+<div>Print out the last item in the array, using the negative index and also the "last" method:</div>
+<div>puts array[-1]</div>
+<div>puts array.last</div>
+<div>The fetch method can be used with an index to return that item in an array:</div>
+<div>puts array.fetch(2)    # => "bread"</div>
+<div>If a second argument is provided to the fetch method and there is no corresponding item in the array, the second argument will be used as a default:</div>
+<div>puts array.fetch(20, "cake")    # => "cake"</div>
+<div>Return the number of items in an array:</div>
+<div>array.length</div>
+<div>array.count</div>
+<div>Return the number of items in the array matching what you send in:</div>
+<div>array.count("eggs")  # => 1</div>
+<div>To find out if an array contains a particular item, use the include? method with the argument of the desired item:</div>
+<div>array.include?("eggs")  # => true</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div>array = ["milk", "eggs", "bread", "ice cream", "carrots", "potatoes"]</div>
+<div>To access and remove the last item in the array, we can use the pop method:</div>
+<div>last_item = array.pop</div>
+<div>The last_item variable will now contain the string potatoes. The array now looks like this:</div>
+<div>["milk", "eggs", "bread", "ice cream", "carrots"]</div>
+<div>To access and remove the first item in the array, we use the shift method:</div>
+<div>first_item = array.shift </div>
+<div>The first_item variable now contains the string milk. The array now looks like this:</div>
+<div>[ "eggs", "bread", "ice cream", "carrots" ]</div>
+<div>We can use the drop method to take out a number of items from an array. The drop method's argument is the number of items to remove from the front of the array.</div>
+<div>ice_cream_carrots = array.drop(2)</div>
+<div>Similar to the unshift method, which adds to the beginning of an array, the shift method removes from the beginning of an array:</div>
+<div>item = array.shift</div>
+<div>The item variable now contains the string "eggs" and our array looks like this:</div>
+<div>[ "bread", "ice cream", "carrots" ]</div>
+<div>Let's add "potatoes" to the end of our array:</div>
+<div>array.push("potatoes")</div>
+<div>The array now contains:</div>
+<div>["bread", "ice cream", "carrots", "potatoes"]</div>
+<div>The slice method takes two arguments and removes and returns items from the array. The first argument is the index in the array, and the second argument is the number of items:</div>
+<div>first_three_items = array.slice(0, 3)</div>
+<div>Now, the first_three_items variable contains the following array:</div>
+<div>["bread", "ice cream", "carrots"]</div>
+<div>The array variable is now a single element:</div>
+<div>["potatoes"]</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>

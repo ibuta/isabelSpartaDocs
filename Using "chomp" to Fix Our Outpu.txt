@@ -1,0 +1,87 @@
+<div><br></div>
+<div><br></div>
+<div>Def</div>
+<div>	print question + “ “</div>
+<div>	gets.chom</div>
+<div>End</div>
+<div><br></div>
+<div><br></div>
+<div>Puts “welcome to the widget store”</div>
+<div>Answer = ask (“How many widgets are you ordering”)</div>
+<div>Puts “you entered a (answer) widgets”</div>
+<div>P answer</div>
+<div><br></div>
+<div><br></div>
+<div>def ask(question)</div>
+<div>  print question + " "</div>
+<div>  gets.chomp # Add ".chomp" here</div>
+<div>end</div>
+<div><br></div>
+<div>puts "Welcome to the widget store!"</div>
+<div>answer = ask("How many widgets are you ordering?")</div>
+<div>puts "You entered #{answer} widgets"</div>
+<div><br></div>
+<div><br></div>
+<div>Output</div>
+<div><br></div>
+<div>Welcome to the widget store!</div>
+<div>How many widgets are you ordering? 10</div>
+<div>You entered 10 widgets</div>
+<div><br></div>
+<div><br></div>
+<div>———</div>
+<div><br></div>
+<div>Numeric types - numbers are also objets</div>
+<div><br></div>
+<div>whole_number = 12</div>
+<div>fractional_number = 12.34</div>
+<div>p whole_number.class # Fixnum [Integer in Ruby 2.4 and later]</div>
+<div>p fractional_number # Float</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div> 2.class</div>
+<div>"AA".class</div>
+<div><br></div>
+<div><span style="font-size: 13px">Terminal prints: </span></div>
+<div>Fixnum</div>
+<div>String</div>
+<div><br></div>
+<div>You already know how to create objects from the String and Fixnum classes.</div>
+<ul>
+<li>Just include text between quotation marks in your code, and you'll have a String</li>
+<li>Likewise, just include a whole number in your code, and you'll have a Fixnum</li>
+</ul>
+<div><span style="font-size: 13px"><br></span></div>
+<div><span style="font-size: 13px"><br></span></div>
+<div>For other classes, you usually have to call a method on the class to get an instance of it. For example, earlier we briefly showed how to get an instance of the Time class, which represents the current time, by calling the Time.now method.</div>
+<div><br></div>
+<div>time = Time.now</div>
+<div> time.class</div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
+<div><br></div>
